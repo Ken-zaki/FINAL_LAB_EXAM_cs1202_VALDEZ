@@ -1,1 +1,5 @@
 # FINAL_LAB_EXAM_cs1202_VALDEZ
+
+LE2 CS1202
+
+Valdez, John Kenneth C.
