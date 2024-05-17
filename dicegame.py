@@ -35,14 +35,14 @@ class DiceGame:
                 elif user_roll == cpu_roll:
                     print("It's a tie!")
                     user_score += 1  # 1 point for playing
-                elif rounds == 0:
-                    print("Game Over you didnt win any game.")
                 else:
                     print("game over")
                 
 
             print(f"\n{self.player}")
             print(f"points : {user_score}, wins : {rounds}")
+            if rounds == 0:
+                print("Game Over you didnt win any game.")
             self.update_scores(user_score // 4) # win count is user_score // 4                   
             while True:
                 choice = input("\nDo you want to continue to the next stage? 1 for Yes , 0 for No: ")
