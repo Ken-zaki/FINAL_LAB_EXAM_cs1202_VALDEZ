@@ -43,6 +43,7 @@ class DiceGame:
             print(f"points : {user_score}, wins : {rounds}")
             if rounds == 0:
                 print("Game Over you didnt win any game.")
+                return
             self.update_scores(user_score // 4) # win count is user_score // 4                   
             while True:
                 choice = input("\nDo you want to continue to the next stage? 1 for Yes , 0 for No: ")
